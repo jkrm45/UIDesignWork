@@ -46,8 +46,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: a2aa0240c048bbc48aad015e8aefcd36, type: 2}
   mSprites:
   - name: arrow1
-    x: 462
-    y: 1188
+    x: 1246
+    y: 952
     width: 360
     height: 192
     borderLeft: 0
@@ -59,8 +59,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Arrow2
-    x: 1186
-    y: 1188
+    x: 1608
+    y: 971
     width: 359
     height: 192
     borderLeft: 0
@@ -72,8 +72,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: arrow3
-    x: 824
-    y: 1188
+    x: 1250
+    y: 1165
     width: 360
     height: 192
     borderLeft: 0
@@ -85,8 +85,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: arrow4
-    x: 1547
-    y: 1007
+    x: 1612
+    y: 1166
     width: 360
     height: 191
     borderLeft: 0
@@ -98,8 +98,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: arrow5
-    x: 1609
-    y: 1200
+    x: 868
+    y: 935
     width: 376
     height: 209
     borderLeft: 0
@@ -111,8 +111,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: arrow6
-    x: 1665
-    y: 1411
+    x: 868
+    y: 1146
     width: 380
     height: 211
     borderLeft: 0
@@ -124,8 +124,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bg1
-    x: 1547
-    y: 1324
+    x: 464
+    y: 980
     width: 56
     height: 56
     borderLeft: 0
@@ -137,8 +137,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: bg2
-    x: 1547
-    y: 1266
+    x: 406
+    y: 980
     width: 56
     height: 56
     borderLeft: 0
@@ -150,8 +150,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: bg3
-    x: 1547
-    y: 1210
+    x: 522
+    y: 982
     width: 54
     height: 54
     borderLeft: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     paddingBottom: 1
   - name: boast
     x: 0
-    y: 982
+    y: 804
     width: 1714
     height: 23
     borderLeft: 0
@@ -175,9 +175,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: boast3
+    x: 0
+    y: 1359
+    width: 1726
+    height: 108
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: boastBg
     x: 0
-    y: 957
+    y: 779
     width: 1714
     height: 23
     borderLeft: 0
@@ -189,8 +202,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: fire
-    x: 1609
-    y: 1433
+    x: 578
+    y: 985
     width: 47
     height: 51
     borderLeft: 0
@@ -203,7 +216,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: haba
     x: 0
-    y: 1382
+    y: 829
     width: 1607
     height: 102
     borderLeft: 0
@@ -215,8 +228,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Hart
-    x: 1865
-    y: 2006
+    x: 578
+    y: 941
     width: 52
     height: 42
     borderLeft: 0
@@ -229,7 +242,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: HpbaBg
     x: 0
-    y: 1486
+    y: 1469
     width: 1663
     height: 128
     borderLeft: 0
@@ -241,8 +254,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: posin
-    x: 1459
-    y: 1624
+    x: 0
+    y: 933
     width: 404
     height: 424
     borderLeft: 0
@@ -254,7 +267,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Slow1
-    x: 518
+    x: 1025
     y: 1629
     width: 470
     height: 419
@@ -267,7 +280,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Slow2
-    x: 990
+    x: 1497
     y: 1630
     width: 467
     height: 418
@@ -279,9 +292,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Sound
+  - name: slow3
     x: 0
-    y: 1061
+    y: 1599
+    width: 505
+    height: 449
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Sound
+    x: 406
+    y: 1038
     width: 460
     height: 319
     borderLeft: 0
@@ -293,7 +319,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Speaker
-    x: 0
+    x: 507
     y: 1616
     width: 516
     height: 432
@@ -306,8 +332,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Time
-    x: 1919
-    y: 2006
+    x: 522
+    y: 938
     width: 28
     height: 42
     borderLeft: 0
