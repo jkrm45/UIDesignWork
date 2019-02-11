@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Btmmanger : MonoBehaviour
 {
+    public UISlider Sound;
+    public UISlider EffectSound;
+    public AudioSource Music;
+    public AudioSource EffectMusic;
+    
     public GameObject Myscorebg;
     public GameObject SoundOptionbg;
     // Start is called before the first frame update
@@ -15,7 +20,9 @@ public class Btmmanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Music.volume = Sound.value;
+        EffectMusic.volume = EffectSound.value;
+
     }
     public void MyscoreOn()
     {
@@ -23,6 +30,8 @@ public class Btmmanger : MonoBehaviour
     }
     public void SoundOptionOn()
     {
+        Sound.value = PlayerPrefs.GetFloat("SaveSound");
+        EffectSound.value = PlayerPrefs.GetFloat("SaveEffectSound");
         SoundOptionbg.transform.position = new Vector3(0, 0, 0);
     }
     public void Myscoreoff()
@@ -36,5 +45,15 @@ public class Btmmanger : MonoBehaviour
     public void Playstart()
     {
 
+    }
+    public void SoundCancle()
+    {
+        Sound.value = PlayerPrefs.GetFloat("SaveSound");
+        EffectSound.value = PlayerPrefs.GetFloat("SaveEffectSound");
+    }
+    public void SoundOk()
+    {
+        PlayerPrefs.SetFloat("SaveSound", Sound.value);
+        PlayerPrefs.SetFloat("SaveEffectSound", EffectSound.value);
     }
 }

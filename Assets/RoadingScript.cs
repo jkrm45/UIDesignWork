@@ -9,6 +9,11 @@ public class RoadingScript : MonoBehaviour
     public UILabel LoadingText;
     public GameObject LoadingPannel;
     public List<Texture> LoadTexture;
+    public UILabel ReamainTimeText;
+    public float Sircletime1;
+    public float Sircletime2;
+    public float Sircletime3;
+    public float Sircletime4;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +48,40 @@ public class RoadingScript : MonoBehaviour
             //LoadingTexture.mainTexture = LoadTexture[1];
             LoadingPannel.SetActive(false);
         }
+        Sircletime1 = Sircletime1 - Time.deltaTime;
+        Sircletime2 = Sircletime2 - Time.deltaTime;
+        Sircletime3 = Sircletime3 - Time.deltaTime;
+        Sircletime4 = Sircletime4 - Time.deltaTime;
+        if (Sircletime1 > 0)
+        {
+            ReamainTimeText.text = "" + (int)Sircletime1;
+        }
+        else
+        {
+            if (Sircletime2 > 0)
+            {
+                ReamainTimeText.text = "" + (int)Sircletime2;
+
+            }
+            else
+            {
+                if (Sircletime3 > 0)
+                {
+                    ReamainTimeText.text = "" + (int)Sircletime3;
+
+                }
+                else
+                {
+                    if (Sircletime4 > 0)
+                    {
+                        ReamainTimeText.text = "" + (int)Sircletime4;
+
+                    }
+                }
+            }
+        }
+      
+
     }
 
     IEnumerator ChangeText()
